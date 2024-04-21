@@ -100,7 +100,7 @@ export default function ProgramsPage() {
     programService
       .getFiltered(
         currentPage,
-        pageSize,
+        pageSize + 1,
         priceFrom,
         priceTo,
         selectedCategory,
